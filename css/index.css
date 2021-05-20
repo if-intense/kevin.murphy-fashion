@@ -25,6 +25,23 @@ nav img {
   padding: 20px 0;
   text-align: center; }
 
+.sect {
+  padding: 4vh 0;
+  background: #a5a8a8;
+  background: linear-gradient(135deg, #a5a8a8 0%, #e5e8e7 100%); }
+  .sect .container .part1 {
+    margin: 4vh auto; }
+    .sect .container .part1 h3 {
+      color: white;
+      font-weight: bold; }
+  .sect .container .part2 {
+    margin: 4vh auto; }
+    .sect .container .part2 p {
+      padding: 0 3vw;
+      margin-top: 3vh; }
+    .sect .container .part2 .text-left {
+      text-align: left; }
+
 .sect1 {
   background: url(../img/bg-1.png) no-repeat;
   background-size: cover;
@@ -179,6 +196,65 @@ nav img {
     width: 100%;
     height: 100%; }
 
+.sect7 {
+  padding: 4vh 0; }
+  .sect7 .information-area7 h2 {
+    text-align: center; }
+  .sect7 .information-area7 .series {
+    padding: 4vh 3vw; }
+    .sect7 .information-area7 .series h2 {
+      font-size: 1.25em;
+      padding-left: 20px;
+      padding-bottom: 5px;
+      border-left: 10px solid #414141;
+      border-bottom: 1px solid #414141;
+      text-align: left; }
+    .sect7 .information-area7 .series h3 {
+      font-size: 0.9em;
+      padding-left: 30px; }
+    .sect7 .information-area7 .series h5 {
+      font-size: 0.8em;
+      padding: 10px 20px 3px;
+      line-height: 2em; }
+    .sect7 .information-area7 .series .cc {
+      font-size: 0.8em;
+      position: relative; }
+      .sect7 .information-area7 .series .cc:hover, .sect7 .information-area7 .series .cc:active {
+        cursor: pointer; }
+        .sect7 .information-area7 .series .cc:hover .image, .sect7 .information-area7 .series .cc:active .image {
+          opacity: 0.3; }
+        .sect7 .information-area7 .series .cc:hover .mid-text, .sect7 .information-area7 .series .cc:active .mid-text {
+          opacity: 1; }
+    .sect7 .information-area7 .series .item-image {
+      opacity: 1;
+      display: block;
+      transition: .5s ease;
+      visibility: hidden; }
+    .sect7 .information-area7 .series .mid-text {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0%;
+      right: 0;
+      text-align: center;
+      background: rgba(54, 54, 54, 0.6);
+      color: white;
+      padding: 10px;
+      font-size: 0.9em; }
+      .sect7 .information-area7 .series .mid-text a {
+        color: white; }
+
+.card {
+  display: flex;
+  text-decoration: none;
+  color: inherit; }
+  .card .card-body h6 {
+    font-weight: bold; }
+  .card .card-body p {
+    font-size: 0.9em; }
+
 @media (max-width: 576px) {
   .br_on {
     display: block; }
@@ -201,12 +277,14 @@ nav img {
   .sect4 .list {
     width: 90%;
     margin: 0 auto; }
-    .sect4 .list .buttons ul li {
-      display: inline-block;
-      padding-right: 10px;
-      line-height: 1em; }
-      .sect4 .list .buttons ul li a {
-        font-size: 0.5em; }
+    .sect4 .list .buttons ul {
+      list-style-type: none; }
+      .sect4 .list .buttons ul li {
+        display: inline-block;
+        padding-right: 10px;
+        line-height: 1em; }
+        .sect4 .list .buttons ul li a {
+          font-size: 0.5em; }
     .sect4 .list .buttons h4 {
       width: 100%;
       text-decoration: none;
