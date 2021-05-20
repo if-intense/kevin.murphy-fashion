@@ -141,36 +141,43 @@ nav img {
 .sect4 .list {
   width: 90%;
   margin: 0 auto; }
+  .sect4 .list .buttons ul {
+    list-style: none;
+    padding: 0; }
   .sect4 .list .buttons h4 {
     width: 100%;
     text-decoration: none;
     background: #414141;
     margin: 1vh 0;
     text-align: center;
-    padding: 5px 0;
+    padding: 3px 0;
     border-radius: 10px; }
     .sect4 .list .buttons h4 a {
       color: white;
-      font-size: 0.75em; }
+      font-size: 0.6em; }
     .sect4 .list .buttons h4 a:hover {
       cursor: pointer; }
-  .sect4 .list .product-info {
-    text-align: center;
-    border: 1px solid #D9DDCC; }
-    .sect4 .list .product-info h4 {
-      margin: 3vh auto 1vh;
-      text-transform: uppercase; }
-    .sect4 .list .product-info h5 {
-      margin: 1vh auto 2vh; }
-    .sect4 .list .product-info h6 {
-      font-size: 2.5em; }
-      .sect4 .list .product-info h6 span {
-        font-size: 0.75em; }
-    .sect4 .list .product-info p {
-      font-size: 1em; }
-      .sect4 .list .product-info p span {
-        font-size: 2em;
-        color: #f00; }
+  .sect4 .list .product {
+    border: 1px solid #d9DDCC;
+    border-radius: 10px;
+    box-shadow: 1px 3px 3px #414141; }
+    .sect4 .list .product .product-info {
+      text-align: center; }
+      .sect4 .list .product .product-info h4 {
+        margin: 3vh auto 1vh;
+        text-transform: uppercase; }
+      .sect4 .list .product .product-info h5 {
+        margin: 1vh auto 2vh;
+        font-size: 0.9em; }
+      .sect4 .list .product .product-info h6 {
+        font-size: 2.5em; }
+        .sect4 .list .product .product-info h6 span {
+          font-size: 0.75em; }
+      .sect4 .list .product .product-info p {
+        font-size: 1em; }
+        .sect4 .list .product .product-info p span {
+          font-size: 2em;
+          color: #f00; }
 
 .sect5 {
   margin-top: 5vh;
