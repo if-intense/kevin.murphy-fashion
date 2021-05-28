@@ -5,20 +5,23 @@ nav img {
   width: 200px; }
 
 .banner {
-  padding: 180px 0;
-  background: url(../img/bg-top.png) no-repeat;
+  padding-top: 40%;
+  background: url(../img/banner.jpg) no-repeat;
   background-size: cover;
-  background-position: center;
-  margin-bottom: 0; }
+  background-position: center top;
+  margin-bottom: 0;
+  position: relative; }
   .banner h1 {
     margin: 0;
     color: white;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
     font-size: 32px;
-    font-weight: bold;
-    text-align: center; }
+    font-weight: bold; }
   .banner h5 {
-    text-align: center; }
+    text-align: left; }
+  .banner .sub-logo-area {
+    position: absolute;
+    top: 5%; }
 
 .to-other-brand {
   background: #414141;
@@ -27,25 +30,122 @@ nav img {
 
 .sect {
   padding: 4vh 0;
-  background: #a5a8a8;
-  background: linear-gradient(135deg, #a5a8a8 0%, #e5e8e7 100%); }
+  background: #d7a3ab;
+  background: linear-gradient(135deg, #dfece4 0%, white 100%); }
   .sect .container .part1 {
     margin: 4vh auto; }
     .sect .container .part1 h3 {
-      color: white;
-      font-weight: bold; }
+      font-family: 'Times New Roman', Times, serif; }
   .sect .container .part2 {
     margin: 4vh auto; }
-    .sect .container .part2 p {
-      padding: 0 3vw;
-      margin-top: 3vh; }
-    .sect .container .part2 .text-left {
-      text-align: left; }
+    .sect .container .part2 .text-center-inner {
+      display: flex;
+      align-items: center; }
+      .sect .container .part2 .text-center-inner p {
+        padding: 0 3vw;
+        margin-top: 3vh; }
+      .sect .container .part2 .text-center-inner .text-left, .sect .container .part2 .text-center-inner .text-right {
+        text-align: center;
+        background: rgba(255, 255, 255, 0.8); }
+        .sect .container .part2 .text-center-inner .text-left h4, .sect .container .part2 .text-center-inner .text-right h4 {
+          font-size: 1em;
+          margin: 3vh auto;
+          font-weight: normal; }
+          .sect .container .part2 .text-center-inner .text-left h4 span, .sect .container .part2 .text-center-inner .text-right h4 span {
+            font-size: 1.25em;
+            padding: 0 5px;
+            margin: 0 5px;
+            background: linear-gradient(transparent 60%, #916C85 0%);
+            text-shadow: 1px 1px 3px #ffffff; }
+        .sect .container .part2 .text-center-inner .text-left h5, .sect .container .part2 .text-center-inner .text-right h5 {
+          font-size: 1em;
+          margin: 2vh auto;
+          font-weight: normal; }
+          .sect .container .part2 .text-center-inner .text-left h5 span, .sect .container .part2 .text-center-inner .text-right h5 span {
+            background: linear-gradient(transparent 60%, #916C85 0%);
+            font-size: 1.25em;
+            padding: 0 5px;
+            margin: 0 5px;
+            text-shadow: 1px 1px 3px #ffffff; }
+        .sect .container .part2 .text-center-inner .text-left h6, .sect .container .part2 .text-center-inner .text-right h6 {
+          font-size: 1em;
+          margin: 2vh auto;
+          line-height: 1.5em;
+          font-weight: normal; }
+          .sect .container .part2 .text-center-inner .text-left h6 span, .sect .container .part2 .text-center-inner .text-right h6 span {
+            background: linear-gradient(transparent 60%, #916C85 0%);
+            font-size: 1.25em;
+            padding: 0 5px;
+            margin: 0 5px;
+            text-shadow: 1px 1px 3px #ffffff; }
+
+.sect8 {
+  background: #b8dde1;
+  background: linear-gradient(135deg, #b8dde1 0%, white 100%); }
+  .sect8 .container-fluid {
+    padding-top: 8vh;
+    padding-bottom: 4vh; }
+    .sect8 .container-fluid .intro-text h5 {
+      font-size: 1.5em;
+      line-height: 2em;
+      font-family: 'Noto Serif JP', serif; }
+    .sect8 .container-fluid .intro-logo p {
+      font-size: 1.5em;
+      font-weight: bold; }
+    .sect8 .container-fluid .description {
+      font-family: 'Noto Serif JP', serif;
+      line-height: 2em; }
+      .sect8 .container-fluid .description .youtube-video {
+        overflow: hidden;
+        position: relative;
+        width: 100%; }
+        .sect8 .container-fluid .description .youtube-video::after {
+          padding-top: 56.25%;
+          display: block;
+          content: ''; }
+        .sect8 .container-fluid .description .youtube-video iframe {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%; }
+      .sect8 .container-fluid .description p span {
+        font-size: 1.25em;
+        font-weight: bold; }
+        .sect8 .container-fluid .description p span i {
+          font-size: 2em; }
+      .sect8 .container-fluid .description p strong {
+        text-decoration: underline;
+        font: size 1.25em;
+        padding: 0 5px; }
+    .sect8 .container-fluid .outro-text {
+      font-family: 'Noto Serif JP', serif; }
+      .sect8 .container-fluid .outro-text p {
+        line-height: 2em;
+        font-size: 1em; }
+        .sect8 .container-fluid .outro-text p span {
+          font-size: 1.25em;
+          font-weight: bold; }
+      .sect8 .container-fluid .outro-text h5 span {
+        background: #ffdfb4;
+        background: linear-gradient(135deg, #ffdfb4 0%, white 100%);
+        padding: 10px 20px;
+        box-shadow: 1px 3px 6px #414141; }
+      .sect8 .container-fluid .outro-text h3 {
+        background: #414141;
+        color: #ffffff;
+        padding: 10px 0; }
+      .sect8 .container-fluid .outro-text h5 {
+        font-size: 1.25em; }
+      .sect8 .container-fluid .outro-text .magazine {
+        display: flex;
+        align-items: center; }
 
 .sect1 {
-  background: url(../img/bg-1.png) no-repeat;
+  background: url(../img/img005.jpg) no-repeat;
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  padding: 250px 0; }
   .sect1 .information-center {
     text-align: center;
     padding: 3vh 0; }
@@ -53,9 +153,8 @@ nav img {
       font-size: 2em;
       color: #ffffff;
       text-shadow: 1px 1px 3px #414141; }
-    .sect1 .information-center h1 {
-      color: #ffffff;
-      font-size: 3em; }
+    .sect1 .information-center h1 img {
+      width: 50%; }
     .sect1 .information-center h5 {
       color: #ffffff;
       font-size: 1.5em;
@@ -76,12 +175,13 @@ nav img {
   .sect2 .information-center2 {
     text-align: center; }
     .sect2 .information-center2 h3 {
-      font-size: 2.5em;
+      font-size: 2em;
       padding: 3vh 0;
       font-weight: bold; }
     .sect2 .information-center2 h5 {
-      font-size: 1.75em;
-      margin-bottom: 3vh; }
+      font-size: 1.5em;
+      margin: 3vh 0;
+      font-weight: bold; }
     .sect2 .information-center2 p {
       font-size: 1.25em; }
       .sect2 .information-center2 p span {
@@ -91,9 +191,11 @@ nav img {
         color: #ffffff;
         text-shadow: 0 0 3px #414141; }
   .sect2 .img-area .img-a p {
-    font-size: 2em;
+    font-size: 1.25em;
     padding: 3vh 0;
-    font-weight: bold; }
+    font-weight: bold;
+    background: #414141;
+    color: #ffffff; }
   .sect2 .img-area .plus {
     padding: 3vh 0;
     font-weight: bold;
@@ -157,6 +259,12 @@ nav img {
       font-size: 0.6em; }
     .sect4 .list .buttons h4 a:hover {
       cursor: pointer; }
+  .sect4 .list .buttons p.product-category {
+    font-weight: 0.9em;
+    padding-left: 20px;
+    border-left: 5px solid #916C85;
+    border-bottom: 1px solid #916C85;
+    padding-bottom: 5px; }
   .sect4 .list .product {
     border: 1px solid #d9DDCC;
     border-radius: 10px;
@@ -262,7 +370,25 @@ nav img {
   .card .card-body p {
     font-size: 0.9em; }
 
+@media (max-width: 992px) {
+  .br_on_992 {
+    display: block; }
+
+  .sect .container .part2 .text-center-inner .text-left, .sect .container .part2 .text-center-inner .text-right {
+    margin-bottom: 3vh; }
+    .sect .container .part2 .text-center-inner .text-left h4, .sect .container .part2 .text-center-inner .text-right h4 {
+      font-size: 0.9em; }
+    .sect .container .part2 .text-center-inner .text-left h5, .sect .container .part2 .text-center-inner .text-right h5 {
+      font-size: 0.9em; }
+    .sect .container .part2 .text-center-inner .text-left h6, .sect .container .part2 .text-center-inner .text-right h6 {
+      font-size: 0.9em; } }
+@media (max-width: 768px) {
+  .sect2 .img-area .img-a p {
+    font-size: 0.9em; } }
 @media (max-width: 576px) {
+  html, body {
+    overflow-x: hidden; }
+
   .br_on {
     display: block; }
 
@@ -332,6 +458,61 @@ nav img {
           font-size: 0.8em;
           line-height: 2em; }
         .sect6 .main-component .component img {
-          box-shadow: 1px 3px 10px #414141; } }
+          box-shadow: 1px 3px 10px #414141; }
+
+  .sect8 .container {
+    padding-top: 8vh;
+    padding-bottom: 4vh; }
+    .sect8 .container .intro-text h5 {
+      font-size: 1em; }
+    .sect8 .container .intro-logo p {
+      font-size: 1em;
+      font-weight: bold; }
+    .sect8 .container .description p {
+      font-size: 0.9em; }
+    .sect8 .container .outro-text {
+      font-family: 'Noto Serif JP', serif; }
+      .sect8 .container .outro-text h3 {
+        font-size: 1.25em;
+        font-weight: bold; }
+      .sect8 .container .outro-text p {
+        line-height: 2em;
+        font-size: 1em; }
+        .sect8 .container .outro-text p span {
+          font-size: 1.25em;
+          font-weight: bold; }
+      .sect8 .container .outro-text h5 {
+        font-size: 1.25em; }
+
+  .card .card-body {
+    padding: 2vh 0; }
+    .card .card-body h6 {
+      font-size: 0.9em; }
+    .card .card-body p {
+      font-size: 0.8em; } }
+@media (max-width: 376px) {
+  .br_on_376 {
+    display: block; }
+
+  .sect8 .container-fluid .outro-text h5 span {
+    font-size: 0.9em; }
+  .sect8 .container-fluid .outro-text p {
+    font-size: 0.9em; }
+
+  .sect1 .information-center h5 {
+    font-size: 0.9em; }
+  .sect1 .information-center p {
+    font-size: 0.9em; }
+    .sect1 .information-center p span {
+      font-size: 1em; }
+
+  .sect .container .part2 .text-center-inner .text-left h4 {
+    line-height: 2em; }
+  .sect .container .part2 .text-center-inner .text-left h5 {
+    line-height: 2em; }
+  .sect .container .part2 .text-center-inner .text-left h6 {
+    line-height: 2em; }
+    .sect .container .part2 .text-center-inner .text-left h6 span {
+      font-size: 1em; } }
 
 /*# sourceMappingURL=index.css.map */
